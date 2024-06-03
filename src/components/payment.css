@@ -1,0 +1,99 @@
+.about-page {
+    background-image: url('../images/6.jpg'); 
+    background-size: cover;
+    background-position: center top; 
+    min-height: 100vh; 
+    width: 100%;
+    padding-top: 50px; 
+    overflow-y: auto; 
+}
+  
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap; 
+    padding: 40px;
+    color: rgb(255, 255, 255); 
+    background: rgba(71, 55, 44, 0.41);
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.563); 
+}
+  
+.about-column {
+    flex: 1;
+    min-width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 5px;
+    overflow-y: auto; 
+    font-weight: 200; 
+}
+  
+.image-column {
+    flex: 1;
+    min-width: 45%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    overflow-y: auto; 
+    background-image: url('../images/14.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+}
+  
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; 
+}
+  
+
+.about-column a {
+    color: rgba(167, 210, 139, 0.713);
+    text-decoration: none; 
+}
+  
+.about-column a:hover {
+    color: rgb(80, 141, 80);
+}
+  
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+form label {
+    margin: 10px 0 5px;
+}
+  
+.purchase-image {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+  
+form input, form select {
+    padding: 4px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+  
+form button {
+    padding: 4px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(167, 210, 139, 0.713);
+    color: white;
+    cursor: pointer;
+}
+  
+form button:hover {
+    background-color: rgb(80, 141, 80);
+}

@@ -1,0 +1,95 @@
+
+.register-page {
+  background-image: url('../images/7.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.register-form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.register-form h2 {
+  margin-bottom: 20px;
+  color: black; 
+  font-size: 24px;
+}
+
+.register-form h3 {
+  font-size: 13px; 
+  color: #555;
+  margin-bottom: 20px;
+  font-weight: 300; 
+}
+
+
+.register-form input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #3b6a3b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.register-form button:hover {
+  background-color: #6ba16b;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.login-message {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+  font-family: Verdana, sans-serif; 
+}
+
+.login-message a {
+  color: #3b6a3b;
+  text-decoration: none;
+}
+
+.login-message a:hover {
+  text-decoration: underline;
+}

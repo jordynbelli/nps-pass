@@ -1,0 +1,37 @@
+
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  font-family: Arial, sans-serif; 
+  color: white; 
+}
+
+.black-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.welcome-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.welcome-button:hover {
+  background-color: #0056b3;
+}
