@@ -22,7 +22,7 @@ The NPS ExpressPass is designed to enhance your National Park experience by allo
 # Usage
 While many travel thousands of miles for the most sought-after National Parks, it’s no surprise that the busiest parks also have the worst traffic. NPS ExpressPass connects to an ExpressPass transponder, mounted inside your windshield, to streamline check-ins and minimize wait times. All of your passes, permits, and reservations are uploaded to the transponder, which is scanned upon park entry in the National Parks ExpressLane.
 
-Until the ExpressPass comes into existence, the site currently uses an API key from nps.gov to populate all of the National Parks and Monuments in a simple search. It also includes functionality to register, login, "activate" your pass, and "purchase" a pass.
+Until the ExpressPass comes into existence, the site currently uses an API key from nps.gov to populate all of the National Parks and Monuments in a simple search, as well as a Recreation.gov API key for basic campsite searches. The site includes functionality to register, login, edit user details, delete an account, "activate" your pass, and "purchase" a pass.
 
 
 # Technologies Used
@@ -44,14 +44,14 @@ Until the ExpressPass comes into existence, the site currently uses an API key f
 ## To set up the project locally, follow these steps for the backend:
 
 1. git clone github.com/jordynbelli/nps-pass.git
-2. cd nps-pass/app.py
+2. cd nps-pass
 3. python3 -m venv venv, and then source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 4. pip install -r requirements.txt
 5. flask run
 
 ## And these steps for the frontend: 
 
-1. cd ../app.js
+1. cd nps-pass
 2. npm install
 3. npm start
 
