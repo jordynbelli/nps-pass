@@ -2,7 +2,7 @@
 Welcome to the NPS ExpressPass!
 
 https://github.com/jordynbelli/nps-pass
-
+VIDEO EXPLANATION: https://www.loom.com/share/12ff81ad3f6941d0bd3bdac40428f4e3?sid=54213ef4-5134-4306-a327-f7988cd53d5f
 
 NPS ExpressPass is an innovative idea for an app that connects to a transponder, streamlining National Park check-ins and reducing traffic in our busiest parks.
 
