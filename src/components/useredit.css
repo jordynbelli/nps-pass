@@ -1,0 +1,104 @@
+.edit-account-page {
+  background-image: url('../images/12.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.edit-account-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.edit-account-form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-account-form h2 {
+  margin-bottom: 20px;
+  color: black;
+  font-size: 24px;
+}
+
+.edit-account-form input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  outline: none;
+}
+
+.edit-account-form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #3b6a3b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
+}
+
+.edit-account-form button:hover {
+  background-color: #6ba16b;
+}
+
+.edit-account-form .delete-account-button {
+  background-color: #b33a3a;
+  margin-top: 20px;
+}
+
+.edit-account-form .delete-account-button:hover {
+  background-color: #f14d48;
+}
+
+.error-message, .success-message {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.dropdown-container label {
+  margin-right: 10px;
+  color: black;
+}
+
+.dropdown-container select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
